@@ -1,5 +1,8 @@
 // GLOBALS - NO WINDOW !!!
 
+//const { createReadStream } = require("fs");
+//const { result } = require("lodash");
+
 // __dirname - path to current dictionary
 //__filename - file name
 // require - function to use modules (CommonJS)
@@ -12,9 +15,3 @@ setInterval(() => {
   console.log("Hi Everyone");
 }, 1500);*/
 // const { clear } = require("console");
-
-const _ = require("lodash");
-
-const items = [1, [2, [3, [4]]]];
-const newItems = _.flattenDeep(items);
-console.log(newItems);
